@@ -1,7 +1,7 @@
 services:
-  aipan-netdisk-search:
-    image: unilei/aipan-netdisk-search:latest
-    container_name: aipan-netdisk-search-app
+  video-search:
+    image: twamix/video-search:latest
+    container_name: video-search-search-app
     restart: always
     build:
       context: .
